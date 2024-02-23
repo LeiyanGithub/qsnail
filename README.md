@@ -4,10 +4,20 @@ This is the official repository for the LREC-COLING 2024 paper [Qsnail: A Questi
 ### Dataset
 our dataset in folder: /dataset
 
-### Eval Scripts
 
-#### Step1: Model generation
+### Statistic
+The input is research topic T and intents I as the inputs, which then generates a sequence of questions Q1, Q2, ..., Qm, where m denotes the total number of questions. Questions within the questionnaire can be divided into open-ended or closed-ended questions. Qi = {qi} is open-ended question and Qi = {qi, o1, o2, · · · , oni} is closedended question where additional options oj are attached, and ni denotes the number of options. Each individual question, along with its options, and the order of sequential questions must adhere to satisfy the constraints.
+
+<img width="415" alt="image" src="https://github.com/LeiyanGithub/qsnail/assets/45895439/c705c957-3c57-4bbf-bd7a-7803a4f13605">
 
 
-#### Step2: Automatic Evaluation
+### Citation
+@misc{lei2024qsnail,
+      title={Qsnail: A Questionnaire Dataset for Sequential Question Generation}, 
+      author={Yan Lei and Liang Pang and Yuanzhuo Wang and Huawei Shen and Xueqi Cheng},
+      year={2024},
+      eprint={2402.14272},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
