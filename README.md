@@ -24,4 +24,3 @@ The input is research topic T and intents I as the inputs, which then generates 
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-
