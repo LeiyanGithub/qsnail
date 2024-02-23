@@ -3,6 +3,7 @@ This is the official repository for the LREC-COLING 2024 paper [Qsnail: A Questi
 
 ### Dataset
 Qsnail contains 13,168 high-quality human-written questionnaires from Wenjuanxing and Tencent Wenjuan, including approximately 184,854 question-option pairs spanning 11 distinct application domains.
+The dataset and unzip it into the folder ./Dataset
 
 <div align=center>
 <img width="80%" alt="image" src="https://github.com/LeiyanGithub/qsnail/assets/45895439/e63f8501-f146-4c37-82e9-3c97346ea630">
